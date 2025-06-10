@@ -52,3 +52,16 @@ and serve:
 dx serve
 ```
 
+## Build Mobile
+
+```bash
+cd mobile
+dx serve --platform=ios --target x86_64-apple-ios
+```
+
+## Build Desktop
+
+```bash
+cd desktop
+dx serve --platform=macos --target x86_64-apple-macos
+```
