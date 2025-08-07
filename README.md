@@ -39,6 +39,12 @@ ui/
 │  ├─ hero.rs # The Hero component that will be used in every platform
 ```
 
+### Installing The Dioxus `dx` Command
+
+```
+cargo install dioxus-cli
+```
+
 ### Serving Your App
 
 Navigate to the platform crate of your choice:
