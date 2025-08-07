@@ -63,5 +63,7 @@ dx serve --platform=ios --target x86_64-apple-ios
 
 ```bash
 cd desktop
-dx serve --platform=macos --target x86_64-apple-macos
+dx serve --platform=macos --target aarch64-apple-darwin
 ```
+
+(run `rustc --print target-list` for a list of built-in targets).
